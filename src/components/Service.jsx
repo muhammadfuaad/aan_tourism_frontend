@@ -4,7 +4,7 @@ import CheckButton from './CheckButton';
 
 const Service = () => {
   return (
-    <div className="flex gap-2 p-2 shadow-lg w-[70%]">
+    <div className="flex gap-2 p-2 shadow-lg">
       <img src="./images/image_5.png"></img>
       <div className="border-r-2 border-[#e6e6e6] w-[60%]">
         <p className="text-18 font-bold">Camel Ride,Shows,Dinner</p>
