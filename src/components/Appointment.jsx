@@ -3,19 +3,21 @@ import CheckButton from './CheckButton';
 
 const Appointment = () => {
   return (
-    <div className="bg-white p-2 shadow-lg">
+    <div className="bg-white p-4 shadow-lg border border-[#e6e6e6] rounded-md">
       <p className="text-black text-16">Starting from</p>
-      <p className="text-black text-22 font-bold">AED 69.00</p>
+      <p className="text-black text-22 font-bold mb-6">AED 69.00</p>
       <CheckButton />
-      <p className="text-18 text-black font-bold">Select Date and Travelers</p>
-      <div className="border border-[#e6e6e6] rounded-sm flex items-center gap-2 px-4 py-2">
+      <p className="text-18 text-black font-bold mt-6">
+        Select Date and Travelers
+      </p>
+      <div className="border border-[#e6e6e6] rounded-sm flex items-center gap-2 px-4 py-2 mt-2">
         <img
           src="./images/calendar_black.png"
           className="w-[16px] h-[16px]"
         ></img>
         <p className="text-14 text-black">Thursday, Dec 7, 2023</p>
       </div>
-      <div className="border border-[#e6e6e6] rounded-sm flex items-center gap-2 px-4 py-2">
+      <div className="border border-[#e6e6e6] rounded-sm flex items-center gap-2 px-4 py-2 mt-2">
         <img
           src="./images/profile_black.png"
           className="w-[16px] h-[16px]"
@@ -24,7 +26,7 @@ const Appointment = () => {
       </div>
 
       <div></div>
-      <div className="text-14 flex gap-2">
+      <div className="text-14 flex gap-2 mt-4">
         <img
           src="./images/circle_check.png"
           className="w-[16px] h-[16px]"
