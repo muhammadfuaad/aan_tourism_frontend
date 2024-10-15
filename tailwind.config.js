@@ -26,6 +26,13 @@ export default {
         20: "1.25rem",
         22: "1.375rem",
       },
+      container: {
+      center: true,
+      padding: '1rem',
+      screens: {
+        lg: '100%',
+      },
+    },
     },
   },
   plugins: [],

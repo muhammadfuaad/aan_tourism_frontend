@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className="fixed bg-medium-blue text-white text-14 font-medium font-poppins flex justify-between items-center w-full px-12 py-4">
+    <div className="fixed bg-medium-blue text-white text-14 font-medium font-poppins flex justify-between items-center w-full px-12 py-4 left-0 right-0">
       <img src="./images/aan_logo.png" className='w-[100px]'></img>
       <div className='flex gap-6'>
         <a>Top Selling</a>
