@@ -1,13 +1,11 @@
-import React from "react";
 import Header from "./Header";
 import Hero from "./Hero";
-import Feature from "./Feature";
 import Stars from "./Stars";
-import CheckButton from "./CheckButton";
 import Service from "./Service";
 import About from "./About";
 import Appointment from "./Appointment";
 import Features from "./Features";
+
 const Home = () => {
   return (
     <div className="container mx-auto">
