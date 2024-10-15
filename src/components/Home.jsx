@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="flex flex-col">
       <Header />
-      <div className="px-16 py-4 flex flex-col gap-2 pt-20">
+      <div className="px-20 py-4 flex flex-col gap-2 pt-20">
         <p className="text-[25.71px] text-black font-bold font-arial">
           Dubai Desert 4x4 Dune Bashing, Self-Ride 60min ATV Quad, Camel
           Ride,Shows,Dinner
